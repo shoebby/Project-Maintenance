@@ -6,8 +6,7 @@ public class UseItemScript : MonoBehaviour
 {
     public static PlayerScript player;
     public static GameObject playerObject;
-
-    public Transform playerPos;
+    public UseableItemsScript useItemPopup;
 
     public enum Item
     {
@@ -15,6 +14,7 @@ public class UseItemScript : MonoBehaviour
     }
 
     public Item useable;
+    public KeyItem useableKeyItem;
 
     void Start()
     {
@@ -25,38 +25,15 @@ public class UseItemScript : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         if (other.tag == "Player")
-        {
-            player.usePos = playerPos;
-            
-            switch (useable)
+        {            
+            if (Input.GetKeyDown(KeyCode.E))
             {
-                case Item.vialPouch:
-                    player.canUse = PlayerScript.Useables.vialPouch;
-                    break;
-                case Item.camera:
-                    player.canUse = PlayerScript.Useables.camera;
-                    break;
-                case Item.pipeWrench:
-                    player.canUse = PlayerScript.Useables.pipeWrench;
-                    break;
-                case Item.screwdriver:
-                    player.canUse = PlayerScript.Useables.screwdriver;
-                    break;
-                case Item.thumbDrive:
-                    player.canUse = PlayerScript.Useables.thumbDrive;
-                    break;
-                case Item.unmarkedCD:
-                    player.canUse = PlayerScript.Useables.unmarkedCD;
-                    break;
-                case Item.masterKey:
-                    player.canUse = PlayerScript.Useables.masterKey;
-                    break;
-                case Item.crowbar:
-                    player.canUse = PlayerScript.Useables.crowbar;
-                    break;
-                case Item.pliers:
-                    player.canUse = PlayerScript.Useables.pliers;
-                    break;
+                useItemPopup.Enable(this);
+            }
+
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                useItemPopup.Disable();
             }
         }
     }
@@ -66,6 +43,7 @@ public class UseItemScript : MonoBehaviour
         if (other.tag == "Player")
         {
             player.canUse = PlayerScript.Useables.none;
+            useItemPopup.Disable();
         }
     }
 }

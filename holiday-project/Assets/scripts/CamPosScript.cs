@@ -5,6 +5,7 @@ using UnityEngine;
 public class CamPosScript : MonoBehaviour
 {
     public Transform camPos;
+    public GameObject altTarget;
     private static PlayerScript player;
     private static MainCameraScript mainCam;
 
@@ -36,6 +37,11 @@ public class CamPosScript : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            if (altTarget != null)
+                mainCam.target = altTarget;
+            else if (altTarget == null)
+                mainCam.target = player.gameObject;
+
             if (lerpTo)
             {
                 mainCam.lerp = true;
