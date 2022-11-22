@@ -1,0 +1,12 @@
+<ExportPresets LastType="XmlContentExport">
+  <Preset DisplayName="" Type="XmlContentExport">
+    <ExportSettings Type="XmlContentExport">
+      <Filename>D:\I-want-to-make-something\Dialogue Database\Maintenance.xml</Filename>
+      <ExportMarkup>1</ExportMarkup>
+      <ExportQueries>1</ExportQueries>
+      <ApplyTransformations>0</ApplyTransformations>
+      <WriteNamespace>1</WriteNamespace>
+      <WriteAllVariables>0</WriteAllVariables>
+    </ExportSettings>
+  </Preset>
+</ExportPresets>

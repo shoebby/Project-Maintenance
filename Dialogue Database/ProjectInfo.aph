@@ -1,0 +1,19 @@
+<ProjectInfo Version="1">
+  <Signature>396020767A90E9AF28913DFD5C118572A3019BF0C4AEAFC996B1185B9CA2F849</Signature>
+  <Content>
+    <Project Guid="c15003cb-0e4e-4ef4-a647-e9f9e0546169">
+      <DisplayName Value="Maintenance"/>
+      <DetailName Value=""/>
+      <MainProjectGuid Value="8427ecb4-fd44-4fc5-9d47-21596f046ab5"/>
+      <IconType Value="0"/>
+      <IdProjectIcon Value="00000000-0000-0000-0000-000000000000"/>
+      <ScmProviderGuid Value="0745c2ee-abe3-451b-934e-7f597f56c0d7"/>
+      <ScmConfiguration Value=""/>
+      <CreationTimeStamp Value="637951124923280541"/>
+      <PartitionHash Value="F62001F547A8565FFD6A95CCA7CBB26E63E870184D6DC18A055F27114CE50134"/>
+      <SaveFileVersion Value="55"/>
+      <ProjectType Value="0"/>
+      <IsOnlineProject Value="False"/>
+    </Project>
+  </Content>
+</ProjectInfo>

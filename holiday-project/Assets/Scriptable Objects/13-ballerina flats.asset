@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47a827d8b1df4b24786f97a720ed70f4, type: 3}
+  m_Name: 13-ballerina flats
+  m_EditorClassIdentifier: 
+  itemName: Ballerina Flats
+  description: Painful memories, but they do provide the ability to move around quietly.
+  itemID: 13
+  icon: {fileID: 21300000, guid: 14d2973bc57bb3c43beb19a4a8e40172, type: 3}
+  useable: 0
+  equippable: 1
+  equipSlot: 2

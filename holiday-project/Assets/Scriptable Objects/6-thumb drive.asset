@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47a827d8b1df4b24786f97a720ed70f4, type: 3}
+  m_Name: 6-thumb drive
+  m_EditorClassIdentifier: 
+  itemName: Thumb Drive
+  description: I don't want to plug it in my own PC, what if it has a virus on it?
+  itemID: 6
+  icon: {fileID: 21300000, guid: 41d440a74ced4bc488d1cff73bedcd57, type: 3}
+  useable: 1
+  equippable: 0
+  equipSlot: 3
